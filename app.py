@@ -9,7 +9,7 @@ import joblib
 with open('scaler.joblib','rb') as file:
     scale = joblib.load(file)
     
-with open('pca.joblib','rb') as file:
+with open('pca_final.joblib','rb') as file:
     pca = joblib.load(file)
     
 with open('final_model.joblib','rb') as file:
