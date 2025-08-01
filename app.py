@@ -18,7 +18,7 @@ with open('kmeans_final.joblib','rb') as file:
 
 def prediction(input_list):
     scaled_input = scale.transform([input_list])
-    pca_input = pca.transform(saled_input)
+    pca_input = pca.transform(scaled_input)
     output = mode.predict(pca_input)[0]
     
     if output == 0 :
