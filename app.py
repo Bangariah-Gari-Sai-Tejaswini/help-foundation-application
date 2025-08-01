@@ -12,7 +12,7 @@ with open('scaler.joblib','rb') as file:
 with open('pca_final.joblib','rb') as file:
     pca = joblib.load(file)
     
-with open('final_model.joblib','rb') as file:
+with open('kmeans_final.joblib','rb') as file:
     model = joblib.load(file)
     
 
